@@ -1,0 +1,16 @@
+header{
+    height: 150px;
+    border: 1px solid green;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+/* BUSCAR UNA FUENTE GUAY Y CAMBIAR COLORES */
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
