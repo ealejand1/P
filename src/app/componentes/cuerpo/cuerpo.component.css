@@ -1,4 +1,27 @@
-img{
-    width: 100px;
-    border-radius: 50px;
+img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.proyectos .cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cajas div{
+    width: 100%;
+}
+
+.tecnologias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: 2px solid blue;
+  gap: 3px;
+}
+
+.titulo {
+    /* row-start/column-start / row-final/column-final */
+  grid-area: 1/1 /2/4;
 }
