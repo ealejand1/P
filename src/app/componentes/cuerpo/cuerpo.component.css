@@ -3,8 +3,6 @@ img {
   border-radius: 50px;
 }
 
-
-
 .proyectos {
   width: 65vw;
   margin: auto;
@@ -19,7 +17,14 @@ img {
     gap: 2%;
 }
 
-.proyectos .cajas div {
+.etiquetas{
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10%;
+}
+
+.proyectos .cajas .caja {
   width: 48%;
 }
 
@@ -54,7 +59,6 @@ img {
 }
 
 .tecCaja .icon{
-  
   width: 8vw;
   border: 0px;
 }
