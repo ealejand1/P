@@ -1,12 +1,23 @@
-img {
-  width: 100px;
-  border-radius: 50px;
+.imagenPerfil{
+  width: 28vw;
+  border-radius: 50vh;
+}
+
+aside{
+  display: inline-block;
+  width: 50vw;
+}
+
+.mainParrafo{
+  width: 50vw;
 }
 
 .proyectos {
-  width: 65vw;
+  width: 72.5vw;
   margin: auto;
-  }
+}
+
+
 
 .proyectos .cajas{
     display: flex;
@@ -26,10 +37,10 @@ img {
 
 .proyectos .cajas .caja {
   width: 48%;
+  margin-top: 3.5vh;
 }
 
 .tecnologias {
-
   width: 65vw;
   margin: auto;
 
