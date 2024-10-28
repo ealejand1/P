@@ -1,34 +1,59 @@
-.imagenPerfil{
+/* body{
+  display: flex;
+  justify-content: space-around;
+} */
+.cajaPresentacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.botonesMain {
+  color: #fff;
+  border: 2px solid rgb(113, 2, 216);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  /* font-family: "Lucida Console", Monaco, monospace; */
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #d80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.botonesMain:hover {
+  box-shadow: inset 0 0 0 50px #d80286;
+}
+
+.aImgPerfil {
+  text-align: center;
+  padding: 1.4vh;
+}
+.imagenPerfil {
   width: 28vw;
   border-radius: 50vh;
 }
 
-aside{
-  display: inline-block;
+.mainParrafo {
   width: 50vw;
-}
-
-.mainParrafo{
-  width: 50vw;
+  font-size: 2.1vw;
 }
 
 .proyectos {
   width: 72.5vw;
-  margin: auto;
 }
 
-
-
-.proyectos .cajas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2%;
+.proyectos .cajas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2%;
 }
 
-.etiquetas{
+.etiquetas {
   width: max-content;
   display: flex;
   flex-direction: row;
@@ -42,34 +67,37 @@ aside{
 
 .tecnologias {
   width: 65vw;
-  margin: auto;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   border: 2px solid blue;
-  gap: 2.5%;
+  row-gap: 15px;
 }
 
 .titulo {
-    /* row-start/column-start / row-final/column-final */
+  /* row-start/column-start / row-final/column-final */
   grid-area: 1/1 /2/4;
 }
 
-.tecCaja{
+.tecCaja {
+
+  width: 150px;
+  height: 100px;
+  
   color: black;
   background-color: rgb(243, 243, 243);
-  height: 16vh;
-  border-radius: 5px;
-  border: solid 2px rgba(65, 18, 109, 0.404);
+  
+  border-radius: 24px;
+  border: solid 2px rgba(132, 0, 255, 0.404);
 
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
-.tecCaja .icon{
-  width: 8vw;
-  border: 0px;
+.tecCaja .icon {
+  width: 6vw;
+  height: 7vh;
 }
